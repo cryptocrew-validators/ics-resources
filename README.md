@@ -1,5 +1,6 @@
 # ICS-resources
 
+This repository houses useful resources for launching an ICS chain
 
 ## Snippets
 
