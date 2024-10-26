@@ -1,12 +1,14 @@
 #!/bin/bash
 
+# Create CCV channels for new chain launches (creates new connection)
+
 # CONSUMER_CLIENT_ID is on CONSUMER upon genesis
-CONSUMER_CLIENT_ID="07-tendermint-0"
-CONSUMER_CHAIN_ID="dungeon-1"
+CONSUMER_CLIENT_ID="<CONSUMER-CLIENT-ID>"
+CONSUMER_CHAIN_ID="<CONSUMER-CHAIN-ID>"
 
 # PROVIDER_CLIENT_ID is created on PROVIDER upon CONSUMER spawn time: gaiad q provider list-consumer-chains
-PROVIDER_CLIENT_ID="07-tendermint-1322"
-PROVIDER_CHAIN_ID="cosmoshub-4"
+PROVIDER_CLIENT_ID="<PROVIDER-CLIENT-ID>"
+PROVIDER_CHAIN_ID="<PROVIDER-CHAIN-ID>"
 
 CONFIG=$1
 if [ -z "$CONFIG" ]; then 

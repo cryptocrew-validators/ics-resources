@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Create TRANSFER channels
+
 # CONSUMER_CLIENT_ID is on CONSUMER upon genesis
 CONSUMER_CONNECTION_ID="<YOUR-CONSUMERCHAIN-IBC-CONNECTION-ID>"
 CONSUMER_CHAIN_ID="<YOUR-CONSUMERCHAIN-ID>"
@@ -22,4 +24,4 @@ json_output=$(echo "$output" | grep 'result')
 echo "---- DONE ----"
 echo "$json_output" | jq
 
-# hermes start
+# hermes startconsumer

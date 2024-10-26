@@ -1,4 +1,4 @@
-#!/bin/bash
+# Create CCV channels for changeover (existing client-connection-pair)
 
 # CONSUMER_CLIENT_ID is on CONSUMER upon genesis
 CONSUMER_CONNECTION_ID="<YOUR-CONSUMERCHAIN-IBC-CONNECTION-ID>"
