@@ -7,8 +7,8 @@
   },
   "initialization_parameters": {
     "initial_height": {
-     "revision_number": 0,
-     "revision_height": 1
+     "revision_number": 1, // this needs to be 1 for chain-id suffix "-1", 2 for suffix "-2,", etc
+     "revision_height": 1 // needs to be 1 for new chain launches
     },
     "genesis_hash": "",
     "binary_hash": "",
