@@ -1,0 +1,33 @@
+{
+  "chain_id": "dungeon-1",
+  "metadata": {
+    "name": "Dungeon Chain",
+    "description": "Dungeon Chain is a permissioned gaming blockchain designed to enhance the Cosmos Ecosystem and onboard non-crypto users into the crypto space.",
+    "metadata": "{ \"forge_json_url\": \"https://raw.githubusercontent.com/CryptoDungeon/file-repo/refs/heads/main/forge.json\", \"stage\": \"mainnet\"}"
+  },
+  "initialization_parameters": {
+    "initial_height": {
+     "revision_number": 0,
+     "revision_height": 1
+    },
+    "genesis_hash": "",
+    "binary_hash": "",
+    "spawn_time": null,
+    "unbonding_period": 1209600000000000,
+    "ccv_timeout_period": 2419200000000000,
+    "transfer_timeout_period": 1800000000000,
+    "consumer_redistribution_fraction": "0.90",
+    "blocks_per_distribution_transmission": 1000,
+    "historical_entries": 10000,
+    "distribution_transmission_channel": ""
+  },
+  "power_shaping_parameters": {
+    "top_N": 0,
+    "validators_power_cap": 20,
+    "validator_set_cap": 0,
+    "allowlist": ["cosmosvalcons1jufcrrd9gze26sxd82ppse03eg5g5xa2gplt6p","cosmosvalcons1c5e86exd7jsyhcfqdejltdsagjfrvv8xv22368", "cosmosvalcons164q2kq3q3psj436t9p7swmdlh39rw73wpy6qx6", "cosmosvalcons1884dj5gzzv5k8vjhudn0exzjre6dl35s3c7prd", "cosmosvalcons1h8kwr4a5mkqws6px86364unjh8rlz2fd7gr73q", "cosmosvalcons1qxdeeg55f57vxmruwv5rau743etv3fw530uf8x", "cosmosvalcons14l38gadp4uq7fvtuwzwulx0ndxe4my5jfzd9ve"],
+    "denylist": [],
+    "min_stake": 0,
+    "allow_inactive_vals": true
+  }
+}

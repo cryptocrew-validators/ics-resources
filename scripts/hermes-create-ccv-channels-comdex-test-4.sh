@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # CONSUMER_CLIENT_ID is on CONSUMER upon genesis
-CONSUMER_CLIENT_ID="<YOUR-CONSUMERCHAIN-IBC-CLIENT-ID>"
-CONSUMER_CHAIN_ID="<YOUR-CONSUMERCHAIN-ID>"
+CONSUMER_CLIENT_ID="07-tendermint-0"
+CONSUMER_CHAIN_ID="dungeon-1"
 
-# PROVIDER_CLIENT_ID is created on PROVER upon CONSUMER spawn time: gaiad q provider list-consumer-chains
-PROVIDER_CLIENT_ID="<YOUR-PROVIDERCHAIN-IBC-CLIENT-ID>"
-PROVIDER_CHAIN_ID="<YOUR-PROVIDERCHAIN-ID>"
+# PROVIDER_CLIENT_ID is created on PROVIDER upon CONSUMER spawn time: gaiad q provider list-consumer-chains
+PROVIDER_CLIENT_ID="07-tendermint-1322"
+PROVIDER_CHAIN_ID="cosmoshub-4"
 
 CONFIG=$1
 if [ -z "$CONFIG" ]; then 
