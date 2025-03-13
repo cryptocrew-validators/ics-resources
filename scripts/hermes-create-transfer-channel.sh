@@ -19,7 +19,7 @@ if [ ! -f "$CONFIG" ]; then
     exit 1
 fi
 
-output=$(hermes --json --config $CONFIG create channel --a-chain $CONSUMER_CHAIN_ID --a-port consumer --b-port provider --order ordered --a-connection $CONSUMER_CONNECTION_ID --channel-version 1 | tee /dev/tty)
+output=$(hermes --json --config $CONFIG create channel --a-chain $CONSUMER_CHAIN_ID --a-port transfer --b-port transfer --order ordered --a-connection $CONSUMER_CONNECTION_ID --channel-version 1 | tee /dev/tty)
 json_output=$(echo "$output" | grep 'result')
 echo "---- DONE ----"
 echo "$json_output" | jq
